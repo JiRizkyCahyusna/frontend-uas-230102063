@@ -73,68 +73,36 @@ php spark serve
 
 ## 🔌 Cek Endpoint API via Postman
 
-- Dosen
-
-GET http://localhost:8080/dosen
-
-POST http://localhost:8080/dosen/{id dosen}
-
-DEL http://localhost:8080/dosen/{id dosen}
-
-PUT http://localhost:8080/dosen/{id dosen}
-
-- Mahasiswa
-
-GET http://localhost:8080/mahasiswa
-
-POST http://localhost:8080/mahasiswa/{id mahasiswa}
-
-DEL http://localhost:8080/mahasiswa/{id mahasiswa}
-
-PUT http://localhost:8080/mahasiswa/{id mahasiswa}
-
-- Kelas
-
-GET http://localhost:8080/kelas
-
-POST http://localhost:8080/kelas/{id kelas}
-
-DEL http://localhost:8080/kelas/{id kelas}
-
-PUT http://localhost:8080/kelas/{id kelas}
-
-- Mata Kuliah
-
-GET http://localhost:8080/matakuliah
-
-POST http://localhost:8080/matakuliah/{id mata kuliah}
-
-DEL http://localhost:8080/matakuliah/{id mata kuliah}
-
-PUT http://localhost:8080/matakuliah/{id mata kuliah}
-
-- Nilai
-
-GET http://localhost:8080/nilai
-
-POST http://localhost:8080/nilai/{id nilai}
-
-DEL http://localhost:8080/nilai/{id nilai}
-
-PUT http://localhost:8080/nilai/{id nilai}
-
-- Prodi
-
-GET http://localhost:8080/prodi
-
-POST http://localhost:8080/prodi/{id prodi}
-
-DEL http://localhost:8080/prodi/{id prodi}
-
-PUT http://localhost:8080/prodi/{id prodi}
-
-
-
+A. Mahasiswa
+GET mahasiswa : http://localhost:8080/mahasiswa
+POST mahasiswa : http://localhost:8080/mahasiswa
+PUT mahasiswa : http://localhost:8080/mahasiswa/{npm}
+DELETE mahasiswa : http://localhost:8080/mahasiswa/{npm}
+B. Dosen
+GET dosen : http://localhost:8080/dosen
+POST dosen : http://localhost:8080/dosen
+PUT dosen : http://localhost:8080/dosen/{nidn}
+DELETE dosen : http://localhost:8080/dosen/{nidn}
+C. Kelas
+GET kelas : http://localhost:8080/kelas
+POST kelas : http://localhost:8080/kelas
+PUT kelas : http://localhost:8080/kelas/{id_kelas}
+DELETE kelas : http://localhost:8080/kelas/{id_kelas}
+D. Matkul
+GET matkul : http://localhost:8080/matkul
+POST matkul : http://localhost:8080/matkul
+PUT matkul : http://localhost:8080/matkul/{kode_matkul}
+DELETE matkul : http://localhost:8080/matkul/{kode_matkul}
+E. User
+GET user : http://localhost:8080/user
+POST user : http://localhost:8080/user
+PUT user : http://localhost:8080/user/{id_user}
+DELETE user : http://localhost:8080/user/{id_user}
+F. Kehadiran
+GET kehadiran : http://localhost:8080/kehadiran1
+POST kehadiran: http://localhost:8080/kehadiran1
+PUT kehadiran : http://localhost:8080/kehadiran1/{id_kehadiran}
+DELETE kehadiran : http://localhost:8080/kehadiran1/{id_kehadiran}
 
 ## 🌐 Setup Frontend
 
