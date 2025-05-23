@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Data Kelas - Sistem Akademik</title>
+  <title>Data Kelas - SIMON</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
@@ -16,7 +16,7 @@
         <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z" />
         <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l6.16-3.422a12.083 12.083 0 01.84 4.906c0 3.042-1.129 5.824-3.16 7.416a6.987 6.987 0 01-6.16 0c-2.031-1.592-3.16-4.374-3.16-7.416a12.083 12.083 0 01.84-4.906L12 14z" />
       </svg>
-      <h1 class="text-2xl font-bold text-blue-100">Sistem Informasi Nilai</h1>
+      <h1 class="text-2xl font-bold text-blue-100">SIMON</h1>
     </div>
 
     <div class="mb-6">
