@@ -41,7 +41,7 @@
     <i data-feather="book"></i>
     <span>Data Prodi</span>
   </a>
-    <a href="" class="flex items-center gap-3 px-3 py-2 rounded hover:bg-blue-600 text-blue-100">
+    <a href="{{ route('kelas.index')?? '#' }}" class="flex items-center gap-3 px-3 py-2 rounded hover:bg-blue-600 text-blue-100">
     <i data-feather="clipboard"></i>
     <span>Data Kelas</span>
   </a>
