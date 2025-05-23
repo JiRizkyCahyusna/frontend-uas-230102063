@@ -74,34 +74,63 @@ php spark serve
 ## 🔌 Cek Endpoint API via Postman
 
 A. Mahasiswa
+
 GET mahasiswa : http://localhost:8080/mahasiswa
+
 POST mahasiswa : http://localhost:8080/mahasiswa
+
 PUT mahasiswa : http://localhost:8080/mahasiswa/{npm}
+
 DELETE mahasiswa : http://localhost:8080/mahasiswa/{npm}
+
 B. Dosen
+
 GET dosen : http://localhost:8080/dosen
+
 POST dosen : http://localhost:8080/dosen
+
 PUT dosen : http://localhost:8080/dosen/{nidn}
+
 DELETE dosen : http://localhost:8080/dosen/{nidn}
+
 C. Kelas
+
 GET kelas : http://localhost:8080/kelas
+
 POST kelas : http://localhost:8080/kelas
+
 PUT kelas : http://localhost:8080/kelas/{id_kelas}
+
 DELETE kelas : http://localhost:8080/kelas/{id_kelas}
+
 D. Matkul
+
 GET matkul : http://localhost:8080/matkul
+
 POST matkul : http://localhost:8080/matkul
+
 PUT matkul : http://localhost:8080/matkul/{kode_matkul}
+
 DELETE matkul : http://localhost:8080/matkul/{kode_matkul}
+
 E. User
+
 GET user : http://localhost:8080/user
+
 POST user : http://localhost:8080/user
+
 PUT user : http://localhost:8080/user/{id_user}
+
 DELETE user : http://localhost:8080/user/{id_user}
+
 F. Kehadiran
+
 GET kehadiran : http://localhost:8080/kehadiran1
+
 POST kehadiran: http://localhost:8080/kehadiran1
+
 PUT kehadiran : http://localhost:8080/kehadiran1/{id_kehadiran}
+
 DELETE kehadiran : http://localhost:8080/kehadiran1/{id_kehadiran}
 
 ## 🌐 Setup Frontend
