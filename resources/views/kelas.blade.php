@@ -24,31 +24,36 @@
       <p class="text-green-300 text-sm">● Online</p>
     </div>
 
-       <nav class="space-y-3">
+         <nav class="space-y-3">
   <a href="/" class="flex items-center gap-3 px-3 py-2 rounded hover:bg-blue-600 text-blue-100">
     <i data-feather="home"></i>
     <span>Dashboard</span>
   </a>
-  <a href="" class="flex items-center gap-3 px-3 py-2 rounded hover:bg-blue-600 text-blue-100">
+  <a href="{{ route('mahasiswa.index')??'#' }}" class="flex items-center gap-3 px-3 py-2 rounded hover:bg-blue-600 text-blue-100">
     <i data-feather="user-check"></i>
     <span>Data Mahasiswa</span>
   </a>
-  <a href="{{ route('kelas.index') }}" class="flex items-center gap-3 px-3 py-2 rounded bg-white text-blue-800 font-semibold">
+  <a href="{{ route('matkul.index')??'#' }}" class="flex items-center gap-3 px-3 py-2 rounded hover:bg-blue-600 text-blue-100">
     <i data-feather="users"></i>
-    <span>Data Kelas</span>
+    <span>Data Matkul</span>
   </a>
-  <a href="}" class="flex items-center gap-3 px-3 py-2 rounded hover:bg-blue-600 text-blue-100">
+  <a href="" class="flex items-center gap-3 px-3 py-2 rounded hover:bg-blue-600 text-blue-100">
     <i data-feather="book"></i>
     <span>Data Prodi</span>
   </a>
+    <a href="{{ route('kelas.index') }}" class="flex items-center gap-3 px-3 py-2 rounded bg-white text-blue-800 font-semibold">
+    <i data-feather="clipboard"></i>
+    <span>Data Kelas</span>
+  </a>
 </nav>
+
   </aside>
 
   <!-- Main Content -->
   <main class="flex-1 p-8 min-h-screen overflow-auto">
     <section>
       <h2 class="text-3xl font-bold text-gray-700 mb-6 flex items-center gap-2">
-        <i data-feather="users" class="text-blue-600"></i> Data Kelas
+        <i data-feather="clipboard" class="text-blue-600"></i> Data Kelas
       </h2>
 
       <!-- Tombol Tambah & Search -->
