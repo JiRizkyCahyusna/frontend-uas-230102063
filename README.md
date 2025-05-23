@@ -691,11 +691,6 @@ public function exportPdf()
 
 
 
-
-
-
-
-
 ---
 
-🚀 Selamat! Sistem Informasi Nilai siap digunakan!
+🚀 Selamat! Sistem Informasi Monitoring Kehadiran Mahasiswa siap digunakan!
